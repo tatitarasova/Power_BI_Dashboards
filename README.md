@@ -4,7 +4,7 @@
 
 ## Introduction
 
-These dashboards were created in the context of the [**Power BI for Data Analytics**](https://www.lukebarousse.com/powerbi) course. They facilitate job searching for professionals working in the fields of data science, data engineering, and data analytics. The data powering the dashboards comes from a *real-world dataset of job postings for various data-related roles from 2023 through December 2025*. This project provides a single, easy-to-use interface to explore data jobs market trends and compensation.
+These dashboards were created in the context of the [**Power BI for Data Analytics**](https://www.lukebarousse.com/powerbi) course. They facilitate job searching for professionals working in the fields of data science, data engineering, and data analytics. The data powering the dashboards comes from a *real-world dataset of job postings for various data-related roles from 2023 through August 2026*. This project provides a single, easy-to-use interface to explore data jobs market trends and compensation.
 
 ## Skills Showcased
 
