@@ -1,6 +1,6 @@
 # Data Jobs Dashboard with Power BI
 
-![Dashboard Page 1](./images/Project1_Page1.png)
+![Dashboard Page 1](../images/Project1_Page1.png)
 
 ## Introduction
 
@@ -23,13 +23,13 @@ These dashboards were created in the context of the [**Power BI for Data Analyti
 
 ### Page 1: High-Level Market View
 
-![Dashboard Page 1](./images/Project1_Page1.png)
+![Dashboard Page 1](../images/Project1_Page1.png)
 
 The main dashboard contains an overview of the job market. It showcases KPIs such as `Job Count`, `Median Yearly Salary ($USD)`, and top job titles.
 
 ### Page 2: Job Title Drill Through
 
-![Dashboard Page 2](./images/Project1_Page2.png)
+![Dashboard Page 2](../images/Project1_Page2.png)
 
 This is the drill through page. From the main dashboard, you can dive deeper into this view to get specific details for a selected job title. This page shows salary ranges and supplementary information about job postings, such as whether there are mentions of health insurance, a degree requirement, or remote work. 
 Additionally, the locations of the jobs can be explored on a map. Finally, the job posting platforms and different job types are summarised.
