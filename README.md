@@ -23,3 +23,25 @@ Key Power BI Skills Utilised:
 - Drill-Through Functionality
 
 [**View Full Project 1 Details (README)**](Data_Jobs_v1/README.md)
+
+# Data Jobs Dashboard 2.0 (V2 - Data Job Seekers Comparison Tool)
+
+![Data Jobs Dashboard 2.0](images/Project2_Page1.png)
+
+Key Power BI Skills Utilised:
+- Comparative Dashboard Layout & Design
+- Power Query (Dimension Tables & Data Cleaning)
+- Data Modeling (Cross-Filter Direction & Bridge Tables)
+- Explicit DAX Measures & Filter Context
+- Dynamic Titles & Context-Aware Text
+- Field Parameters for Measure Switching
+- Core Charts (Bar) & KPI Cards
+- Button Slicers with State-Based Formatting
+- Edit Interactions for Targeted Filtering
+- Conditional Formatting with DAX
+
+[**View Full Project 2 Details (README)**](Data_Jobs_v2/README.md)
+
+## About This Portfolio
+
+You'll find a separate `README.md` in each dashboard's project folder, linked above. Each one explains the goals of the project, where the data comes from, which Power BI techniques were used, and how the dashboard was built step by step.
