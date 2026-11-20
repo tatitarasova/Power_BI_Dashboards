@@ -13,7 +13,7 @@ This project is a one-page interactive Power BI dashboard designed for data prof
 
 Side-by-side KPI cards show job count and median yearly salary for the selected country and globally, while bar charts break down full-time and part-time roles, with a toggle to switch between median salary and each schedule type's share of postings.
 
-The data powering the dashboards comes from a *real-world dataset of job postings for various data-related roles from 2023 through August 2026*. 
+The data powering the dashboards comes from a *real-world dataset of job postings for various data-related roles from 2023 through October 2026*. 
 
 ## Skills Showcased
 
@@ -58,6 +58,28 @@ Each half shows KPI cards for job count and median yearly salary.
 Bottom part of the dashboard contains bar charts that break down full-time and part-time roles, with a "Show" toggle to switch between median salary and job share. Dynamic headers and notes update with every selection, for example naming the selected country and flagging when a schedule type has no data, so the comparison always stays clear and easy to read.
 
 ## Conclusion
-This dashboard (Version 2.0) turns a large dataset of job postings into a clear comparison of how a selected country's data job market stacks up against global figures. For example, it shows that the median yearly salary for **Data Analyst** in **Spain** is **$90K**, which is in line with the global offering, while full-time roles make up almost all postings in both cases. Note, that Job Share for full-time and part-time roles can add up to more than 100%.[^1] It helps **job seekers** make informed decisions about which data role to target and where, based on job availability, salary levels and schedule type.
+This dashboard (Version 2.0) turns a large dataset of job postings into a clear comparison of how a selected country's data job market stacks up against global figures. It helps **data nerds job seekers** make informed decisions about which data role to target and where, based on job availability, salary levels and schedule type.
 
-[^1]: A job posting can list more than one schedule type, so it may be counted in both groups.
+For example, as the screenshot below shows, the median yearly salary for **Data Analyst** in **Spain** is **$90K**, which is **$3K less than the global offering**. 
+
+![Dashboard Page 1](../images/Project2_Cards.png)
+
+Another screenshot below provides a more detail view of the median yearly salary of job postings filtered to include only part-time or full-time jobs:
+- **No salary data was found for part-time positions in Spain**, while
+- **globally, median yearly salary significantly increases when going from part-time to full-time jobs**: $94K for full-time positions against $78K for part-time positions.
+
+![Dashboard Page 1](../images/Project2_Salary.png)
+
+To investigate further the part-time job offerings, we can switch bar charts to show us the `Job Share` data:
+
+![Dashboard Page 1](../images/Project2_Job_Share.png)
+
+It's notable that **both Spain and global job offerings consist mainly of full-time positions**.[^1]
+The amount of part-time job postings is twice as big as that one of Spain. When consulting the tooltip of the Part-time bar for the global offerings, one can find that the median yearly salary data was computed on ~1K postings. 
+
+## Future Work
+Further improvements of the current dashboard may include adding filters on the global view to exclude data from the country selected in the left-hand side (it will be Spanish data for our running example). This will lead to a more precise comparison of job offerings between a selected country and the rest of the world.
+
+Additionally, other dimensions of the job postings data can be explored. For example, someone comparing job offers in Spain may be interested in learning how many of the jobs postings allow for remote work. Another very interesting dimension is the skills that job postings listed. It can be a crucial bit of information in the process of deciding which data-related jobs to pursue.
+
+[^1]: Note, that Job Share for full-time and part-time roles can add up to more than 100%. A job posting can list more than one schedule type, so it may be counted in both groups.
